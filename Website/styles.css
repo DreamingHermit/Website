@@ -1,0 +1,41 @@
+.top-bar {
+    background-color: #000;
+    color: #C0CAF5;
+    width: 100%;
+    height: 161px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex; 
+    align-items: center;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color:#1f2335;
+}
+
+.responsive-image {
+    max-width: auto;
+    height: 101px;
+    padding: 10px 10px 10px 20px;
+}
+
+.bar-text-big {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px; 
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.bar-text-small {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px; /* Sets the font size */
+    margin-right: 10px; 
+    margin-top: 19px
+}
